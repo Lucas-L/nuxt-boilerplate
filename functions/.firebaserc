@@ -1,0 +1,6 @@
+{
+    "projects": {
+        "default": "sharpn-nuxt-firebase-starter",
+        "sharpn": "sharpn"
+    }
+}

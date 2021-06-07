@@ -1,0 +1,137 @@
+/**
+* fade
+*/
+.fade-enter-active,
+.fade-leave-active {
+    transition-property: opacity, transform;
+    transition-duration: .25s;
+}
+
+.fade-enter,
+.fade-leave-to {
+    opacity: 0;
+}
+
+/**
+* fade
+*/
+.fade-scale-enter-active,
+.fade-scale-leave-active {
+    transition-property: opacity, transform;
+    will-change: transform, opacity;
+    transition-duration: .125s;
+    transition-timing-function: cubic-bezier(.5, 0, 0, 1);
+}
+
+.fade-scale-enter,
+.fade-scale-leave-to {
+    opacity: 0;
+    transform: scale(0.985);
+}
+
+/**
+* fade-quick
+*/
+.fade-quick-enter-active,
+.fade-quick-leave-active {
+    transition-property: opacity, transform;
+    transition-duration: .125s;
+}
+
+.fade-quick-enter,
+.fade-quick-leave-to {
+    opacity: 0;
+}
+
+/**
+* fade-up
+*/
+.fade-up-enter-active,
+.fade-up-leave-active {
+    transition-property: opacity, transform;
+    transition-duration: .2s;
+    transition-timing-function: cubic-bezier(.5, 0, 0, 1);
+}
+
+.fade-up-enter,
+.fade-up-leave-to {
+    opacity: 0;
+    transform: translateY(.5rem);
+}
+
+/**
+* morph-rotate
+*/
+.morph-rotate-enter-active,
+.morph-rotate-leave-active {
+    will-change: transform;
+    transition-property: transform;
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(.5, 0, 0, 1);
+}
+
+.morph-rotate-enter,
+.morph-rotate-leave-to {
+    transform: rotate(90deg);
+}
+
+/**
+* popup-bounce
+*/
+.popup-bounce-enter-active,
+.popup-bounce-leave-active {
+    transition-property: opacity, transform;
+    will-change: transform, opacity;
+    transition-duration: .175s;
+    transition-timing-function: cubic-bezier(.5, 0, 0, 1.5);
+}
+
+.popup-bounce-enter,
+.popup-bounce-leave-to {
+    opacity: 0;
+    transform: scale(0.9);
+}
+
+/**
+* fade-bounce
+*/
+.fade-bounce-enter-active,
+.fade-bounce-leave-active {
+    transition-property: opacity, transform;
+    will-change: transform, opacity;
+    transition-duration: .15s;
+    transition-timing-function: cubic-bezier(.5, 0, 0, 1.1);
+}
+
+.fade-bounce-enter,
+.fade-bounce-leave-to {
+    opacity: 0;
+    transform: scale(0.975);
+}
+
+/**
+* slide-right
+*/
+.slide-right-enter-active {
+    transition-property: opacity, transform;
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(.5, 0, 0, 1);
+}
+
+.slide-right-leave-active {
+    transition-property: opacity, transform;
+    transition-duration: .10s;
+    transition-timing-function: cubic-bezier(.5, 0, 0, 1);
+}
+
+
+
+.slide-right-enter {
+    opacity: 0;
+    transform: translateX(100%);
+}
+
+.slide-right-leave-to {
+    opacity: 0;
+    transform: translateX(0);
+}

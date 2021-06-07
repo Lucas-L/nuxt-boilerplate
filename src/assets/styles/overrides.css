@@ -1,0 +1,15 @@
+.breaky .card {
+    @apply text-12;
+}
+
+.breaky li {
+    @apply px-16 py-8;
+}
+
+.breaky .current-breakpoint {
+    @apply px-16 py-8;
+}
+
+.breaky .current-breakpoint svg {
+    @apply h-12;
+}

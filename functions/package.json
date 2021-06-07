@@ -1,0 +1,23 @@
+{
+    "name": "functions",
+    "description": "Sharpn Nuxt Firebase Functions",
+    "scripts": {
+        "serve": "firebase serve --only functions",
+        "shell": "firebase functions:shell",
+        "start": "npm run shell",
+        "deploy": "firebase deploy --only functions",
+        "logs": "firebase functions:log",
+        "emulate": "firebase emulators:start --only functions"
+    },
+    "dependencies": {
+        "firebase-admin": "^8.6.0",
+        "firebase-functions": "^3.3.0"
+    },
+    "devDependencies": {
+        "firebase-functions-test": "^0.1.6"
+    },
+    "engines": {
+        "node": "10"
+    },
+    "private": true
+}
